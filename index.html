@@ -5,6 +5,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="js/javascripts.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
     </head>
     <body>
         <header>
@@ -69,6 +72,10 @@
               </div>
             </div>
                 
+                <div class="intermedio">
+                    
+                </div>
+                
             <div class="formulario">
             
                 <div class="opciones">
@@ -78,19 +85,35 @@
                     <button class="botonopcion">Mis viajes</button>
                     <button class="botonopcion">Estado de vuelo</button>
                 </div>
-                
+                <div class="contenido">
+                    <div class="form">
+                        <form action="" >
+                         <input placeholder="Origen" type=text name=origen required>
+                         <input placeholder="Destino" type=text name=destino required>
+                            <br>
+                        <input placeholder="pasajes" type=number name=pasajes min="0" max="10" style="width: 100px" required>
+                            <br>
+                        <input type="date" name="bdaytime" required>
+                        <br>
+                        <input type="submit" value="Comprar ">
+                        </form>
+                    </div>
+                </div>
                 
                 <div id="showhide" ></div>
                 <div id="hide_show">
-                    <p>funcionando pero falta implementar mejor</p>
+                    <p>funcionando pero falta implementar mejorr</p>
                 </div>
                 
             </div>
-  
                 
             </div>
             <div class="footer">
-            
+                <div class="contentido">
+                    <p>© 2019 LATAM Airlines Chile Av. el callejon de los perros 901, san gregorio, Santiago de Chile - Número: 133</p>
+                    
+                </div>
+             
             </div>
         </header>
     </body>
