@@ -1,0 +1,82 @@
+.menu{
+    width: 100%;
+    height: 95px;
+    background-color: #1b0088;
+    border-top:20px;
+    margin-top: 20px;
+    padding-left: 0;
+ 
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+.opcionesmenu{
+    
+    width: 55%;
+    float: right;
+    position: inherit;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 140px;
+    
+}
+
+
+
+.logo {
+    
+    width: 18%;
+    padding-left: 250px;
+    float: left;
+}
+
+.opcionesmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.opcionesmenu li {
+    float: right;
+}
+
+.opcionesmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.formulario{
+    display:inline-block;
+    text-align:center;
+}
+
+.opciones .botonopcion{
+    display: block;   
+}
+
+.botonopcion {
+    background-color: #1b0088;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    border-color: white;
+}
+
+
+
+
